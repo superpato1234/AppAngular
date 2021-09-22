@@ -1,0 +1,28 @@
+nav{
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: var(--main-bg-color);
+    color: var(--text-color)
+}
+p{
+    font-size: var(--text-size-medium);
+
+}
+nav li{
+    color: blue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    flex-flow: row nowrap;
+}

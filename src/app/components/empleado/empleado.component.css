@@ -1,0 +1,16 @@
+p{
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+    padding: 5px ; 
+}
+input{
+    background-color: gray;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border: solid 2px rgb(87, 87, 87);
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}

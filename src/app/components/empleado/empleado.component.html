@@ -1,0 +1,9 @@
+<p>soy un empleado</p>
+<p>{{getNombre()}}</p>
+<p>{{ edad<18 ? "Menor de edad": "Mayor de edad"}}</p>
+<p>{{empresa.value}}</p>
+<input type="text" name="Empresa" id="empresa" placeholder="Empresa" #empresa (keyup)="0">
+<input type="text" name="Empresad" id="empresad" placeholder="Empresad" #empresad>
+
+<p>{{empresad.value}}</p>
+<input type="button" value="click me" (click)="setEmpresad(empresad.value)">
